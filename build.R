@@ -21,6 +21,8 @@ use_r("theme")
 document()
 
 
+use_gpl3_license()
+
 
 
 

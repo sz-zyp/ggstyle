@@ -3,10 +3,10 @@ Type: Package
 Title: color and theme
 Version: 0.1.0
 Author: zhang Yupeng
-Maintainer: The package maintainer <824147110@qq.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Maintainer: zhang Yupeng <824147110@qq.com>
+Description: The `ggstyle` package provides a simple way to enhance your `ggplot2` visualizations by 
+    customizing the color schemes and themes.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: 
