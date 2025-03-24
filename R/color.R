@@ -8,28 +8,33 @@
 #' @export
 #'
 #' @examples
-#' palette2Color(palette = "color1")
-#' palette2Color(palette = "color2")
-#' palette2Color(palette = c("red","blue")) # This will return to the original state
-palette2color = function(palette){
-  paletteList = list(
-    "color1" = c("#f57c6e","#f2b56e","#fbe79e","#84c3b7","#88d7da","#71b8ed","#b8aeea","#f2a8da"),
-    "color2" = c("#529dca","#71be50","#f3cc4e","#eca063","#d56935")
-  )
+#' palette2color(palette = "color1")
+#' palette2color(palette = "color2")
+#' palette2color(palette = c("red","blue")) # This will return to the original state
+palette2color = function(palette,n=NULL,modeColor=1){
+  # paletteList
+  # n=10
+  # modeColor=1
 
   if(length(palette) == 1){
     colors = paletteList[[palette]]
-    if(is.null(colors)){
-      valid_colors <- tryCatch(col2rgb(palette),
-                               error = function(e) stop("包含无效颜色值"))
-      stop("Invalid palette name")
-    } else {
-      return(colors)
+    if(is.null(n)){
+      n=length(colors)
+    }
+    if (n > length(colors)){
+      warning("Insufficient number of colors, interpolation will be applied")
+      colorRampPalette(colors)(n)
+    } else{
+      if(modeColor == "auto"){
+        colorRampPalette(colors)(n)
+      }else if(modeColor == "1"){
+        colorRampPalette(colors[1:n])(n)
+      }else{
+        # Do nothing for other cases
+      }
     }
   } else {
-    valid_colors <- tryCatch(col2rgb(palette),
-                             error = function(e) stop("包含无效颜色值"))
-    stop("Invalid palette name")
+    return(palette)
   }
 }
 
