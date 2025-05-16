@@ -1,7 +1,7 @@
 Package: ggstyle
 Type: Package
 Title: color and theme
-Version: 0.1.0
+Version: 0.2.0
 Author: zhang Yupeng
 Maintainer: zhang Yupeng <824147110@qq.com>
 Description: The `ggstyle` package provides a simple way to enhance your `ggplot2` visualizations by 
@@ -13,5 +13,8 @@ Imports:
     ggplot2,
     scales
 Suggests: 
-    ggthemes
+    ggthemes,
+    knitr,
+    rmarkdown
 RoxygenNote: 7.2.3
+VignetteBuilder: knitr

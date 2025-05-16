@@ -26,7 +26,7 @@ library(ggstyle)
 ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
   geom_point(size = 4) +
   scale_color_sci(
-    palette = "color1",
+    palette = "rainbow1",
     type = "discrete",
     modeColor = "auto",  # Automatically select the color
     name = "Cylinders",
@@ -42,7 +42,7 @@ For continuous data, use `scale_fill_sci()`:
 ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
   geom_tile() +
   scale_fill_sci(
-    palette = "color1",
+    palette = "rainbow1",
     type = "continuous"
   ) +
   labs(title = "Custom Continuous Color Scale Application")
@@ -70,3 +70,47 @@ This is a companion function that applies the same color palette to the fill aes
 ------
 
 For more advanced customization, you can pass additional arguments to the scale functions, such as `name`, `breaks`, and `limits`.
+
+## Color Preview
+
+The included colors are as follows:
+
+![](vignettes/img/color.jpg){width="400"}
+
+Effect Display
+
+![](vignettes/img/科研配色_ggstyle_01.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_02.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_03.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_04.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_05.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_06.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_07.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_08.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_09.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_10.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_11.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_12.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_13.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_14.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_15.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_16.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_17.png){width="400"}
+
+![](vignettes/img/科研配色_ggstyle_18.png){width="400"}

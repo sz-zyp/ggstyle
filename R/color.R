@@ -8,8 +8,7 @@
 #' @export
 #'
 #' @examples
-#' palette2color(palette = "color1")
-#' palette2color(palette = "color2")
+#' palette2color(palette = "rainbow1")
 #' palette2color(palette = c("red","blue")) # This will return to the original state
 palette2color = function(palette,n=NULL,modeColor=1){
   # paletteList
@@ -62,7 +61,7 @@ palette2color = function(palette,n=NULL,modeColor=1){
 #'  ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
 #'    geom_point(size = 4) +
 #'    scale_color_sci(
-#'      palette = "color1",
+#'      palette = "rainbow1",
 #'      type = "discrete",
 #'      modeColor = "auto",
 #'      name = "Cylinders",
@@ -73,7 +72,7 @@ palette2color = function(palette,n=NULL,modeColor=1){
 #'  ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
 #'    geom_tile() +
 #'    scale_fill_sci(
-#'      palette = "color1",
+#'      palette = "rainbow1",
 #'      type = "continuous"
 #'    ) +
 #'    labs(title = "Custom Continuous Color Scale Application")

@@ -41,7 +41,7 @@ Select a color palette to apply to ggplot2 plots. If the number of colors in the
  ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
    geom_point(size = 4) +
    scale_color_sci(
-     palette = "color1",
+     palette = "rainbow1",
      type = "discrete",
      modeColor = "auto",
      name = "Cylinders",
@@ -52,7 +52,7 @@ Select a color palette to apply to ggplot2 plots. If the number of colors in the
  ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
    geom_tile() +
    scale_fill_sci(
-     palette = "color1",
+     palette = "rainbow1",
      type = "continuous"
    ) +
    labs(title = "Custom Continuous Color Scale Application")
