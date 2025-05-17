@@ -75,42 +75,42 @@ For more advanced customization, you can pass additional arguments to the scale 
 
 The included colors are as follows:
 
-![](vignettes/img/color.jpg){width="400"}
+![](vignettes/img/color.jpg)
 
-Effect Display
+Display
 
-![](vignettes/img/科研配色_ggstyle_01.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_01.png)
 
-![](vignettes/img/科研配色_ggstyle_02.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_02.png)
 
-![](vignettes/img/科研配色_ggstyle_03.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_03.png)
 
-![](vignettes/img/科研配色_ggstyle_04.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_04.png)
 
-![](vignettes/img/科研配色_ggstyle_05.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_05.png)
 
-![](vignettes/img/科研配色_ggstyle_06.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_06.png)
 
-![](vignettes/img/科研配色_ggstyle_07.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_07.png)
 
-![](vignettes/img/科研配色_ggstyle_08.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_08.png)
 
-![](vignettes/img/科研配色_ggstyle_09.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_09.png)
 
-![](vignettes/img/科研配色_ggstyle_10.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_10.png)
 
-![](vignettes/img/科研配色_ggstyle_11.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_11.png)
 
-![](vignettes/img/科研配色_ggstyle_12.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_12.png)
 
-![](vignettes/img/科研配色_ggstyle_13.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_13.png)
 
-![](vignettes/img/科研配色_ggstyle_14.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_14.png)
 
-![](vignettes/img/科研配色_ggstyle_15.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_15.png)
 
-![](vignettes/img/科研配色_ggstyle_16.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_16.png)
 
-![](vignettes/img/科研配色_ggstyle_17.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_17.png)
 
-![](vignettes/img/科研配色_ggstyle_18.png){width="400"}
+![](vignettes/img/科研配色_ggstyle_18.png)
