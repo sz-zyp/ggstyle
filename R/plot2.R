@@ -55,7 +55,7 @@ example_plot  = function(ncolor = 8,
     dat_box= data.frame(a=letters[1:ncolor],
                         b=runif(ncolor*20, 7, 10))
     p_box= ggplot(dat_box, aes(a, b, fill=a))+
-      # stat_boxplot(geom = "errorbar", linewidth=0.8, width = 0.3)+
+      # stat_boxplot(geom = "errorbar", size=0.8, width = 0.3)+
       geom_boxplot(alpha=alp)+
       scale_fill_manual(values = colorList)+
       labs(x="x", y="y", title = "")+
@@ -88,7 +88,7 @@ example_plot  = function(ncolor = 8,
                          b=rep(1:ncolor, each=20)+rnorm(20*ncolor, 0, 0.3),
                          t=rep(sample(letters, ncolor), each=20))
     p_line= ggplot(dat_line, aes(a, b, color=t, group=t))+
-      geom_line(linewidth=1, alpha=alp)+
+      geom_line(size=1, alpha=alp)+
       scale_color_manual(values = colorList)+
       labs(x="x", y="y", title = "")+
       ggstyle::theme_style1()+theme(legend.position = "none")
@@ -103,7 +103,7 @@ example_plot  = function(ncolor = 8,
                          b=rep(1:ncolor, each=20)+rnorm(20*ncolor, 0, 0.3),
                          t=rep(sample(letters, ncolor), each=20))
     p_area= ggplot(dat_line, aes(a, b, color=t,fill=t, group=t))+
-      geom_area(linewidth=0.5, alpha=alp,color="white")+
+      geom_area(size=0.5, alpha=alp,color="white")+
       scale_color_manual(values = colorList)+
       scale_fill_manual(values = colorList)+
       labs(x="x", y="y", title = "")+
@@ -118,7 +118,7 @@ example_plot  = function(ncolor = 8,
     dat_box= data.frame(a=letters[1:ncolor],
                         b=runif(ncolor*20, 7, 10))
     p_violin= ggplot(dat_box, aes(a, b, fill=a))+
-      # stat_boxplot(geom = "errorbar", linewidth=0.8, width = 0.3)+
+      # stat_boxplot(geom = "errorbar", size=0.8, width = 0.3)+
       # geom_boxplot()+
       # geom_violin(alpha=alp)+
 

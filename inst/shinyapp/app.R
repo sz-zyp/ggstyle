@@ -140,7 +140,7 @@ ui <- navbarPage(
   theme = bs_theme(
     version = 5,
     primary = "#3498db",
-    base_font = font_google("Noto Sans"),
+    # base_font = font_google("Noto Sans"),
     bootswatch = "flatly"
   ),
   # header = tags$style(HTML(custom_css)),
