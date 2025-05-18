@@ -21,7 +21,7 @@ theme_style1 <- function(base_size=14) {
       # text = element_text(family = "Arial"),
       panel.background  = element_rect(fill = "white"),
       plot.background  = element_rect(fill = "white", colour = NA),
-      panel.grid.major  = element_line(colour = "white", linewidth = 0.3),
+      panel.grid.major  = element_blank(),
       panel.grid.minor  = element_blank(),
       legend.position  = "bottom",
       legend.key.size  = unit(0.8, "cm"),
