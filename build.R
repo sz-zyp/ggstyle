@@ -2,6 +2,8 @@ library(devtools)
 
 load_all()
 
+devtools::install()
+
 
 # 需要加载的包
 use_package("ggplot2",type = "Imports")
@@ -29,6 +31,8 @@ document()
 
 # 许可证
 use_gpl3_license()
+
+
 
 
 # git remote add origin https://github.com/sz-zyp/ggstyle.git

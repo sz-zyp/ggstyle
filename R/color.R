@@ -9,7 +9,7 @@
 #'
 #' @examples
 #' palette2color(palette = "rainbow1")
-#' palette2color(palette = c("red","blue")) # This will return to the original state
+#' palette2color(palette = c("red","blue")) # Will treat the input color as a color scheme
 palette2color = function(palette,n=NULL,modeColor=1){
   # paletteList
   # n=10
@@ -17,6 +17,9 @@ palette2color = function(palette,n=NULL,modeColor=1){
 
   if(length(palette) == 1){
     colors = paletteList[[palette]]
+  }else{
+    colors = palette
+  }
     if(is.null(n)){
       n=length(colors)
     }
@@ -32,9 +35,6 @@ palette2color = function(palette,n=NULL,modeColor=1){
         # Do nothing for other cases
       }
     }
-  } else {
-    return(palette)
-  }
 }
 
 
